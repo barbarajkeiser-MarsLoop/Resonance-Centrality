@@ -6,6 +6,12 @@
 
 Betweenness centrality has been the king of animal network analysis for 20+ years — but it only sees **half** the picture.
 
+---
+
+Special Thanks to: https://github.com/bansallab/asnr/tree/master/Networks 
+
+---
+
 **Resonance Centrality** reveals the hidden stars:
 
 - **Grins** 😄 → routing hubs that keep everyone connected  
@@ -48,6 +54,4 @@ git clone https://github.com/barbarajkeiser-MarsLoop/Resonance-Centrality.git
 cd Resonance-Centrality
 pip install networkx numpy scipy pandas matplotlib
 
----
 
-Special Thanks to: https://github.com/bansallab/asnr/tree/master/Networks 
