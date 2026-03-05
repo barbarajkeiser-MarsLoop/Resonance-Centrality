@@ -47,3 +47,7 @@ These are **not** artifacts — real biological structure.
 git clone https://github.com/barbarajkeiser-MarsLoop/Resonance-Centrality.git
 cd Resonance-Centrality
 pip install networkx numpy scipy pandas matplotlib
+
+---
+
+Special Thanks to: https://github.com/bansallab/asnr/tree/master/Networks 
