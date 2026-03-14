@@ -1,57 +1,31 @@
-# Resonance Centrality 🐬🐦✨
+# Resonance Centrality 🐬🐦🦇✨
 
-**A new way to spot the real MVPs in animal social networks**
+**A composite metric revealing two structurally distinct classes of important individuals in animal social networks**
 
-![Resonance Centrality Banner](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8+-brightgreen?style=for-the-badge) ![NetworkX](https://img.shields.io/badge/NetworkX-powered-orange?style=for-the-badge)
-
-Betweenness centrality has been the king of animal network analysis for 20+ years — but it only sees **half** the picture.
-
----
-
-Special Thanks to: https://github.com/bansallab/asnr/tree/master/Networks 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19009607.svg)](https://doi.org/10.5281/zenodo.19009607)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-brightgreen?style=flat-square)](https://www.python.org)
+[![NetworkX](https://img.shields.io/badge/NetworkX-3.6+-orange?style=flat-square)](https://networkx.org)
+[![Status](https://img.shields.io/badge/status-under_review-yellow?style=flat-square)](https://doi.org/10.5281/zenodo.19009607)
 
 ---
 
-**Resonance Centrality** reveals the hidden stars:
+**Betweenness centrality has dominated animal social network analysis for 20+ years** — but it only sees the routing hubs.  
 
-- **Grins** 😄 → routing hubs that keep everyone connected  
-- **Beescratches** 🐝 → quality anchors that build the richest local neighborhoods (invisible to betweenness!)  
-- **True Grins** ⭐ → rare super-nodes that dominate **both** roles  
+**Resonance Centrality** sees *both*:
 
-Validated across real datasets with insane significance: up to **29.88σ** — way beyond physics discovery levels.
+- **Grins** — routing hubs (high betweenness)  
+- **Beescratches** — quality anchors that create the richest local neighborhoods (invisible to betweenness)  
+- **True Grins** — rare individuals who dominate *both* roles at once  
 
-## At a Glance
+Validated across four real-world datasets (dolphins, sociable weavers, vampire bats) with effect sizes **5.76σ to 29.88σ** — all at the **100th percentile** of 100 scrambled null networks. (For context: 5σ is the physics discovery threshold.)
 
-| Metric              | What it finds                  | Weight | Why it matters                              |
-|---------------------|--------------------------------|--------|---------------------------------------------|
-| **Rhythm**          | Normalized degree              | 0.4    | How socially connected is this individual?  |
-| **Coherence**       | Neighborhood density           | 0.4    | How rich & interwoven is their circle?      |
-| **Bridging**        | Normalized betweenness         | 0.2    | How much does the network route through them? |
+**Preprint (Zenodo):** [doi.org/10.5281/zenodo.19009607](https://doi.org/10.5281/zenodo.19009607)  
+**Submitted to:** *Animal Behaviour*
 
-**Resonance = (Rhythm × 0.4) + (Coherence × 0.4) + (Bridging × 0.2)**
+---
 
-Tested on:
-- Bottlenose dolphins (Doubtful Sound, n=62)
-- Sociable weaver colonies (n=42 & n=24)
+## The Resonance Centrality Formula
 
-All three datasets hit **100th percentile** vs 100 random scrambled networks.
-
-## Validation Highlights 🔥
-
-| Dataset              | Species              | Nodes | Edges | Effect Size (σ) | Percentile | Top Node Type     |
-|----------------------|----------------------|-------|-------|-----------------|------------|-------------------|
-| Doubtful Sound       | Bottlenose Dolphin   | 62    | 159   | 17.72σ          | 100th      | Beescratch        |
-| Network_639          | Sociable Weaver      | 42    | 152   | **29.88σ**      | 100th      | Beescratch        |
-| Network_658          | Sociable Weaver      | 24    | 62    | 9.73σ           | 100th      | **True Grin**     |
-
-These are **not** artifacts — real biological structure.
-
-## Quick Start
-
-```bash
-# Clone & install
-git clone https://github.com/barbarajkeiser-MarsLoop/Resonance-Centrality.git
-cd Resonance-Centrality
-pip install networkx numpy scipy pandas matplotlib
-
-
+```math
+RC(i) = (Rhythm \times 0.4) + (Coherence \times 0.4) + (Bridging \times 0.2)
