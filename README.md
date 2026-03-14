@@ -30,21 +30,21 @@ Validated across five datasets spanning four species, all at the **100th percent
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Tursiops_truncatus_01.jpg" width="180" alt="Bottlenose dolphin"/><br>
+<img src="https://en.wikipedia.org/wiki/Special:FilePath/Bottlenose_dolphin_with_young.JPG" width="180" alt="Bottlenose dolphin"/><br>
 <b>Bottlenose dolphin</b><br>
 <i>Tursiops truncatus</i><br>
 Doubtful Sound, NZ<br>
 17.72σ · Beescratch
 </td>
 <td align="center" width="25%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Philetairus_socius_-Kgalagadi_Transfrontier_Park-8.jpg" width="180" alt="Sociable weaver"/><br>
+<img src="https://en.wikipedia.org/wiki/Special:FilePath/Philetairus_socius_(Etosha,_2013).jpg" width="180" alt="Sociable weaver"/><br>
 <b>Sociable weaver</b><br>
 <i>Philetairus socius</i><br>
 Kalahari, South Africa<br>
 29.88σ · Beescratch / True Grin ⭐
 </td>
 <td align="center" width="25%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Vampire_bat_upsidedown.jpg" width="180" alt="Vampire bat"/><br>
+<img src="https://en.wikipedia.org/wiki/Special:FilePath/Common_vampire_bat,_Desmodus_rotundus.jpg" width="180" alt="Vampire bat"/><br>
 <b>Vampire bat</b><br>
 <i>Desmodus rotundus</i><br>
 Cranbrook colony<br>
@@ -243,4 +243,4 @@ MIT — see [LICENSE](LICENSE). Data from ASNR is used under its original terms.
 
 *Barbara J. Keiser — Independent Researcher*  
 *Gravois Mills, Missouri*  
-*barbara.j.keiser@gmail.com*00
+*barbara.j.keiser@gmail.com*
